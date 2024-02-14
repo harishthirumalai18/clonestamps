@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .photoshop {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #4A90E2;
+    color: #bee012;
+    padding: 20px;
+  }
+  
+  .toolbar button {
+    margin-right: 0px;
+    background-color: #abcc32;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .toolbar button:hover {
+    background-color: #70e311;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 100px;
+    background-color: #c5389b;
+    padding: 200px;
+  }
+  
+  .canvas {
+    flex: 1;
+    padding: 50px;
+    background-color: #106980;
+  }
+  
+  footer {
+    background-color: #4A90E2;
+    color: #03050c;
+    text-align: center;
+    padding: 2px;
+  }
+  

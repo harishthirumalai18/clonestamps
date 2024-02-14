@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #9ff20f;
+    border: none;
+    color: #f30606;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toolbar {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.toolbar button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #77796a;
+    border: none;
+    color: #d3c8db;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#canvas {
+    border: 2px solid #0dc667;
+    background-color: #fbf8fa;
+    margin: 10px auto;
+    display: block;
+}
+
+#pasteUrlInput {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #5e52d1;
+}
+
+#setSourcePoint {
+    background-color: #f00;
+    color: #fff;
+}
